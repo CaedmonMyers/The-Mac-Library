@@ -1,0 +1,760 @@
+h1 {
+	color: white;
+	font-family: Helvetica;
+}
+
+body {
+	background: linear-gradient(#197FE0, #A487FF, #A487FF);
+	background-attachment: fixed;
+	/*background-color: #fdc100;*/
+}
+
+img {
+  width: 100%; /* takes the 100 % width of its container (.box div)*/
+  height: 100%; /* takes the 100 % height of its container (.box div)*/
+}
+
+.titleImage {
+	border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+br {
+	height: 20px;
+}
+
+a {
+	text-decoration: none;
+	/*color: white;*/
+}
+
+a:hover{
+	text-decoration: none;
+	/*color: white;*/
+}
+
+/*Start of form CSS*/
+
+.transparent {
+	color: transparent;
+}
+
+.formNewLine {
+	color: transparent;
+	font-size: 3px;
+}
+
+.formEmail {
+	width: 300px;
+	height: 40px;
+	margin-left: 20px;
+	color: white;
+	background-color: #444;
+	border-color: white;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+}
+
+.formEmail:focus {
+	width: 300px;
+	height: 40px;
+	margin-left: 20px;
+	color: white;
+	background-color: #666;
+	border-color: white;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+}
+
+.formMessage {
+	width: 300px;
+	height: 100px;
+	margin-left: 20px;
+	color: white;
+	background-color: #444;
+	border-color: white;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+}
+
+.formMessage:focus {
+	width: 300px;
+	height: 100px;
+	margin-left: 20px;
+	color: white;
+	background-color: #666;
+	border-color: white;
+	border: solid;
+	border-radius: 5px;
+	border-width: 3px;
+}
+
+.formButtons {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-family: Helvetica;
+	background-color: #444;
+	border-radius: 15px;
+	border-color: #444;
+	border: solid;
+	border-width: 3px;
+	margin: 20px;
+}
+
+.formButtons:hover{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	font-family: Helvetica;
+	background-color: transparent;
+	border-radius: 15px;
+	border-color: #444;
+	border: solid;
+	border-width: 3px;
+	margin: 20px;
+}
+
+/*End of form CSS*/
+
+@media (max-width: 1000px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    }
+
+@media (min-width: 1001px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }
+
+.comingSoonBanner {
+	color: white;
+	width: 100%;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #FDC100;
+}
+
+.mobileComingSoonBanner {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FDC100;
+}
+
+.preorderBanner {
+	color: white;
+	width: 100%;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #19B000;
+}
+
+.mobilePreorderBanner {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #19B000;
+}
+
+.mobileBannerContainter {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.appInfo {
+	width: 94%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.infoSubtextApp {
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: auto;
+}
+
+
+.peopleButtons {
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: Helvetica;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #444;
+	border-width: 3.5px;
+	border-radius: 10px;
+}
+
+.peopleButtons:hover{
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: Helvetica;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 3.5px;
+	border-radius: 10px;
+}
+.peopleButtonText {
+	color: white;
+	padding-left: 5px;
+	margin: auto;
+}
+
+.appsImage {
+	width: 45%;
+	padding-left: 5%;
+}
+
+.mobileAppsImage {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: auto;
+}
+
+.peopleHStack {
+		display: inline-flex;
+		margin: auto;
+}
+
+.peopleIcons {
+	height: 30px;
+	width: 30px;
+	margin: auto;
+}
+
+.peopleBox {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+.fillButtonText {
+	color: white;
+}
+
+.contactButtons {
+	text-decoration: underline;
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
+.contactButtonsNoPadding {
+	text-decoration: underline;
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.whiteButtonText {
+	color: white;
+}
+
+.outlineButtonText {
+	color: white;
+}
+
+hr {
+	border: 4;
+  border-top: 3px black;
+}
+
+/*a: link {
+	color: white;
+}
+
+a: visited {
+	color: white;
+}*/
+
+.imageBox {
+	width: 100%;
+	margin: auto;
+ 	/*height: 200px;*/
+ 	/*border: 5px dashed #f7a239;*/
+}
+
+.infoText {
+	width: 90%;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.compareSection {
+	width: 50%;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.listTitle {
+	color: white;
+	padding-left: 20px;
+}
+
+.listItem {
+	color: white;
+	padding-left: 5px;
+}
+
+.compareListItem {
+	color: white;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+
+.compareList {
+}
+
+.compareHStack {
+	width: 95%;
+	display: inline-flex;
+	margin: auto;
+	padding-left: 5%;
+}
+
+.infoSubtextCenter {
+	color: white;
+	/*text-align: center;*/
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
+.infoSubtextLeft {
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
+.infoSubtextLeftNoPadding {
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding-left: 20px;
+}
+
+.HStack {
+	display: inline-flex;
+	padding-bottom: 50px;
+}
+
+.altHStack {
+	display: inline-flex;
+}
+
+.navBarTitle {
+	margin: auto;
+	padding-left: 15px;
+}
+
+.navBarTitle:hover {
+	text-decoration: underline;
+}
+
+.socialIcon {
+	height: 40px;
+	width: 50px;
+	padding-left: 10px;
+}
+
+.socialIconMenu {
+	height: 30px;
+	width: 35px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.doorhingeapps {
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.doorhingeapps:hover {
+	text-decoration: underline;
+}
+
+.navTitleStack {
+	padding-left: 15px;
+	display: grid;
+
+
+}
+
+.navButton {
+	color: white;
+	font-family: Helvetica;
+	padding: 10px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: transparent;
+}
+
+.navButton:hover {
+	color: white;
+	font-family: Helvetica;
+	padding: 10px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.navBar {
+	width: 85%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 12px;
+	background-color: #444;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+}
+
+.centerButtons {
+	padding: 20px;
+	display: inline-flex;
+	margin: auto;
+}
+
+.fillButtons {
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: Helvetica;
+	background-color: #444;
+	border-radius: 15px;
+}
+
+.fillButtons:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	font-family: Helvetica;
+    background: linear-gradient(to right, #FF3A99, #A487FF);
+	border-style: solid;
+	border-color: #444;
+	border-width: 4px;
+	border-radius: 15px;
+}
+
+.fillButtons2 {
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-family: Helvetica;
+	background-color: #444;
+	border-radius: 15px;
+}
+
+.fillButtons2:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	font-family: Helvetica;
+    background: linear-gradient(to right, #FF3A99, #A487FF);
+	border-style: solid;
+	border-color: #444;
+	border-width: 4px;
+	border-radius: 15px;
+}
+
+.Hspacer10 {
+	width: 10px;
+	color: transparent;
+}
+
+.Hspacer15 {
+	width: 15px;
+	color: transparent;
+}
+
+.Hspacer20 {
+	width: 20px;
+	color: transparent;
+}
+
+.outlineButtons {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	font-family: Helvetica;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #444;
+	border-width: 4px;
+	border-radius: 15px;
+}
+
+.outlineButtons:hover{
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	font-family: Helvetica;
+    background: linear-gradient(to right, #FF3A99, #A487FF);
+	border-style: solid;
+	border-color: #444;
+	border-width: 4px;
+	border-radius: 15px;
+}
+
+.Questions {
+	font-family: Helvetica;
+	color: white;
+	width: 90%;
+	margin: auto;
+}
+
+.Answers {
+	font-family: Helvetica;
+	font-weight: normal;
+	color: white;
+	width: 90%;
+	margin: auto;
+}
+
+.footer {
+	margin: auto;
+	text-align: center;
+}
+
+.copyright {
+	font-family: Helvetica;
+	color: white;
+}
+
+.gallery {
+	width: 60%;
+	margin: auto;
+}
+
+.hiddendiv {display: none; }
+.testA:focus ~ #testA {display: block; }
+.testB:focus ~ #testB {display: block; }
+
+
+
+/*CSS for Hamburger Menu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+li:hover {
+	border-width: 4px;
+	border-color: white;
+	border-radius: 0px;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00BAF0;
+  background: linear-gradient(#197FE0, #A487FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  height: 75px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+/*@media only screen and (max-device-width: 480px) {*/
+/*@media (max-width: 1000px) {*/
+@media (max-width: 1200px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 75px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 0.5px solid #444;
+    height: 3em;
+    padding: 0.85em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #AE2FDB;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+
