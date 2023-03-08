@@ -406,15 +406,16 @@ a: visited {
 }
 
 .fillButtons {
-	padding: 20px;
-	color: #464748;
+	/*color: #464748;*/
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	color: white;
-	padding: 20px;
+	padding: 16px;
 	font-family: Helvetica;
 	background-color: #DCE4E7;
+	border-style: solid;
+	border-color: #DCE4E7;
+	border-width: 4px;
 	border-radius: 15px;
 }
 
@@ -425,11 +426,26 @@ a: visited {
 	text-align: center;
 	padding: 16px;
 	font-family: Helvetica;
-	/*background-color: #fdc100;*/
+	background-color: #DCE4E7;
 	border-style: solid;
 	border-color: #444;
 	border-width: 4px;
 	border-radius: 15px;
+}
+
+
+.emailField {
+	color: #464748;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	font-family: Helvetica;
+	/*background-color: #fdc100;*/
+	border-style: solid;
+	border-color: #444;
+	border-width: 4px;
+	border-radius: 10px;
 }
 
 .fillButtons2 {
