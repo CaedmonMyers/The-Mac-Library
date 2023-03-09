@@ -7,13 +7,17 @@ Hello there and thanks for checking out our app! The MacLibrary is made by Doorh
 # Latest Version
 [![](https://themaclibrary.com/Download-Button.png)](https://github.com/doorhinge-apps/The-Mac-Library/releases/download/v1.0/MacLibrary.dmg)
 
+# Follow us:
+- https://twitter.com/doorhingeapps
+- https://mastodon.social/@doorhingeapps
+- https://youtube.com/@doorhingeparkour
+- https://tiktok.com/doorhigneparkour
+
 # Our Websites:
 - https://doorhingeapps.com/
 - https://doorhingeparkour.com/
 - https://themaclibrary.com/
 - https://kiwilist.app/
-- https://youtube.com/@doorhingeparkour
-- https://tiktok.com/doorhigneparkour
 
 # Setup
 ### Hot Corners:
