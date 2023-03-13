@@ -1,14 +1,17 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>MacLibrary</title>
-        <item>
-            <title>2.p</title>
-            <pubDate>Sun, 14 Aug 2022 19:47:59 +0200</pubDate>
-            <sparkle:version>2.0</sparkle:version>
-            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/doorhinge-apps/The-Mac-Library/releases/download/prod/MacLibrary.app.zip" length="1158226" type="application/octet-stream" sparkle:edSignature="T9JSnoW2Y7uSXa5Oh9Xw5lDjYkGum+W9NyR+dvvpTaOB049QABPNM0+1W7h20/s2GeEuVdzGr1oMcH18vmXADw=="/>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>MyApp Changelog</title>
+    <link>https://github.com/myusername/myapp/releases</link>
+    <description>Updates for MyApp</description>
+    <language>en</language>
+    <item>
+      <title>Version 2.0</title>
+      <description>Meet version 2.0 of the MacLibrary with auto-update, search, and more.</description>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/doorhinge-apps/The-Mac-Library/releases/download/v2.0-beta.3/MacLibrary.app.zip" sparkle:version="1.0.0" sparkle:shortVersionString="1.0.0" length="1234567" type="application/octet-stream"/>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:dsaSignature>ABCDEFG1234567</sparkle:dsaSignature>
+    </item>
+  </channel>
 </rss>
