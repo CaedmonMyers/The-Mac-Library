@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>MyApp Changelog</title>
-    <link>https://github.com/myusername/myapp/releases</link>
-    <description>Updates for MyApp</description>
+    <title>MacLibrary Update</title>
+    <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
       <title>Version 2.0</title>
-      <description>Meet version 2.0 of the MacLibrary with auto-update, search, and more.</description>
-      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
-      <enclosure url="https://github.com/doorhinge-apps/The-Mac-Library/releases/download/v2.0-beta.3/MacLibrary.app.zip" sparkle:version="1.0.0" sparkle:shortVersionString="1.0.0" length="1234567" type="application/octet-stream"/>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <sparkle:dsaSignature>ABCDEFG1234567</sparkle:dsaSignature>
+       <link>https://themaclibrary.com</link>
+       <sparkle:version>2.0</sparkle:version>
+      <description>
+      <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
+      </description>
+      <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
+      <enclosure url="https://github.com/doorhinge-apps/The-Mac-Library/releases/download/v2.0-beta.3/MacLibrary.app.zip" length="107758" type="application/octet-stream" sparkle:edSignature="7cLALFUHSwvEJWSkV8aMreoBe4fhRa4FncC5NoThKxwThL6FDR7hTiPJh1fo2uagnPogisnQsgFgq6mGkt2RBw=="/>
     </item>
   </channel>
 </rss>
