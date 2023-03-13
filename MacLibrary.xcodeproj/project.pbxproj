@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90DA3B329BCD645006F5CCC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DA3B229BCD645006F5CCC /* Settings.swift */; };
+		B98F0FE329BCF5E800CEC625 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = B98F0FE229BCF5E800CEC625 /* Sparkle */; };
+		B98F0FE529BCF5F100CEC625 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B98F0FE429BCF5F100CEC625 /* GoogleService-Info.plist */; };
+		B9C918B129BBD9DE0074D19C /* MacLibrary_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C918B029BBD9DE0074D19C /* MacLibrary_2_0App.swift */; };
+		B9C918B329BBD9DE0074D19C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C918B229BBD9DE0074D19C /* ContentView.swift */; };
+		B9C918B529BBD9DF0074D19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C918B429BBD9DF0074D19C /* Assets.xcassets */; };
+		B9C918B829BBD9DF0074D19C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C918B729BBD9DF0074D19C /* Preview Assets.xcassets */; };
+		B9C918C029BBE7680074D19C /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C918BF29BBE7680074D19C /* EditingView.swift */; };
+		B9EF6E1729BCFFAA00BAB7C8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B9EF6E1629BCFFAA00BAB7C8 /* FirebaseAnalytics */; };
+		B9EF6E1929BD13A600BAB7C8 /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF6E1829BD13A600BAB7C8 /* Updater.swift */; };
+		B9EF6E1B29BD17C400BAB7C8 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EF6E1A29BD17C400BAB7C8 /* About.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90DA3B229BCD645006F5CCC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B98F0FE429BCF5F100CEC625 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9C918AD29BBD9DE0074D19C /* MacLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C918B029BBD9DE0074D19C /* MacLibrary_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLibrary_2_0App.swift; sourceTree = "<group>"; };
+		B9C918B229BBD9DE0074D19C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9C918B429BBD9DF0074D19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C918B729BBD9DF0074D19C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9C918B929BBD9DF0074D19C /* MacLibrary_2_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLibrary_2_0.entitlements; sourceTree = "<group>"; };
+		B9C918BF29BBE7680074D19C /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
+		B9EF6E1829BD13A600BAB7C8 /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		B9EF6E1A29BD17C400BAB7C8 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C918AA29BBD9DE0074D19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EF6E1729BCFFAA00BAB7C8 /* FirebaseAnalytics in Frameworks */,
+				B98F0FE329BCF5E800CEC625 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C918A429BBD9DE0074D19C = {
+			isa = PBXGroup;
+			children = (
+				B9C918AF29BBD9DE0074D19C /* MacLibrary 2.0 */,
+				B9C918AE29BBD9DE0074D19C /* Products */,
+				B9EF6E1529BCFFAA00BAB7C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C918AE29BBD9DE0074D19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C918AD29BBD9DE0074D19C /* MacLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C918AF29BBD9DE0074D19C /* MacLibrary 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B98F0FE429BCF5F100CEC625 /* GoogleService-Info.plist */,
+				B9C918B029BBD9DE0074D19C /* MacLibrary_2_0App.swift */,
+				B9EF6E1A29BD17C400BAB7C8 /* About.swift */,
+				B9C918B229BBD9DE0074D19C /* ContentView.swift */,
+				B9C918BF29BBE7680074D19C /* EditingView.swift */,
+				B90DA3B229BCD645006F5CCC /* Settings.swift */,
+				B9EF6E1829BD13A600BAB7C8 /* Updater.swift */,
+				B9C918B429BBD9DF0074D19C /* Assets.xcassets */,
+				B9C918B929BBD9DF0074D19C /* MacLibrary_2_0.entitlements */,
+				B9C918B629BBD9DF0074D19C /* Preview Content */,
+			);
+			path = "MacLibrary 2.0";
+			sourceTree = "<group>";
+		};
+		B9C918B629BBD9DF0074D19C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9C918B729BBD9DF0074D19C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9EF6E1529BCFFAA00BAB7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C918AC29BBD9DE0074D19C /* MacLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C918BC29BBD9DF0074D19C /* Build configuration list for PBXNativeTarget "MacLibrary" */;
+			buildPhases = (
+				B9C918A929BBD9DE0074D19C /* Sources */,
+				B9C918AA29BBD9DE0074D19C /* Frameworks */,
+				B9C918AB29BBD9DE0074D19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacLibrary;
+			packageProductDependencies = (
+				B98F0FE229BCF5E800CEC625 /* Sparkle */,
+				B9EF6E1629BCFFAA00BAB7C8 /* FirebaseAnalytics */,
+			);
+			productName = "MacLibrary 2.0";
+			productReference = B9C918AD29BBD9DE0074D19C /* MacLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C918A529BBD9DE0074D19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9C918AC29BBD9DE0074D19C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B9C918A829BBD9DE0074D19C /* Build configuration list for PBXProject "MacLibrary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C918A429BBD9DE0074D19C;
+			packageReferences = (
+				B98F0FE129BCF5E800CEC625 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				B98F0FE629BCFA6200CEC625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B9C918AE29BBD9DE0074D19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C918AC29BBD9DE0074D19C /* MacLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C918AB29BBD9DE0074D19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C918B829BBD9DF0074D19C /* Preview Assets.xcassets in Resources */,
+				B98F0FE529BCF5F100CEC625 /* GoogleService-Info.plist in Resources */,
+				B9C918B529BBD9DF0074D19C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C918A929BBD9DE0074D19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C918C029BBE7680074D19C /* EditingView.swift in Sources */,
+				B9EF6E1B29BD17C400BAB7C8 /* About.swift in Sources */,
+				B9C918B329BBD9DE0074D19C /* ContentView.swift in Sources */,
+				B90DA3B329BCD645006F5CCC /* Settings.swift in Sources */,
+				B9C918B129BBD9DE0074D19C /* MacLibrary_2_0App.swift in Sources */,
+				B9EF6E1929BD13A600BAB7C8 /* Updater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9C918BA29BBD9DF0074D19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9C918BB29BBD9DF0074D19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B9C918BD29BBD9DF0074D19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacLibrary 2.0/MacLibrary_2_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "2.0-b2";
+				DEVELOPMENT_ASSET_PATHS = "\"MacLibrary 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 47J6H2LHDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacLibrary;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doorhingeapps.App-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9C918BE29BBD9DF0074D19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacLibrary 2.0/MacLibrary_2_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "2.0-b2";
+				DEVELOPMENT_ASSET_PATHS = "\"MacLibrary 2.0/Preview Content\"";
+				DEVELOPMENT_TEAM = 47J6H2LHDD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacLibrary;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doorhingeapps.App-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C918A829BBD9DE0074D19C /* Build configuration list for PBXProject "MacLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C918BA29BBD9DF0074D19C /* Debug */,
+				B9C918BB29BBD9DF0074D19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C918BC29BBD9DF0074D19C /* Build configuration list for PBXNativeTarget "MacLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C918BD29BBD9DF0074D19C /* Debug */,
+				B9C918BE29BBD9DF0074D19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B98F0FE129BCF5E800CEC625 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B98F0FE629BCFA6200CEC625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B98F0FE229BCF5E800CEC625 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F0FE129BCF5E800CEC625 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+		B9EF6E1629BCFFAA00BAB7C8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B98F0FE629BCFA6200CEC625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B9C918A529BBD9DE0074D19C /* Project object */;
+}
