@@ -10,10 +10,6 @@ Hello there and thanks for checking out our app! The MacLibrary is made by Doorh
 # App Store Version:
 https://apps.apple.com/us/app/app-library/id6446043898
 
-# App Code:
-### We have provided the source code for the MacLibrary app. You me modify it for personal use. You may also make changes and submit them in a pull request here if you think it would ba a valuable feature in the app.
-https://github.com/doorhinge-apps/The-Mac-Library/tree/MacLibrary-App
-
 # Follow us:
 - https://twitter.com/doorhingeapps
 - https://mastodon.social/@doorhingeapps
