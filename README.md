@@ -5,7 +5,7 @@ Hey humans! It's another app from us, yes DoorHinge apps is back! We are thrille
 Hello there and thanks for checking out our app! The MacLibrary is made by Doorhinge Apps (https://doorhingeapps.com). We make a bunch of random apps that make your life a bit more interesting.
 
 # Latest Version
-[![](https://themaclibrary.com/Download-Button.png)](https://github.com/doorhinge-apps/The-Mac-Library/releases/download/v3.0/MacLibrary.app.zip)
+[![](https://themaclibrary.com/Download-Button.png)](https://github.com/doorhinge-apps/The-Mac-Library/releases)
 
 # App Store Version:
 https://apps.apple.com/us/app/app-library/id6446043898
