@@ -1,3 +1,0 @@
-v3.2
-30
-Example release notes!
